@@ -11,6 +11,8 @@ RUN apk add --update --no-cache \
     xz \
     musl-dev \
     linux-headers \
-    build-base
+    build-base \
+    libtool \
+    openssl-dev
 
 WORKDIR /code
